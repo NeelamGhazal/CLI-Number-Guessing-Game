@@ -1,13 +1,15 @@
 {
-  "name": "ng7-cli-number-guessing",
-  "version": "1.1.0",
+  "name": "ng7-number-guessing-game",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "type": "module",
   "publishConfig": {
     "access": "public"
   },
-  "bin": "index.js",
+  "bin": {
+    "ng7-cli-number-guessing-game": "index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
